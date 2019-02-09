@@ -13,27 +13,27 @@ It will be soon available (March 2019)
 
 ### Content
 The suite will follow the chapter book which is written in the French language :
-1. Equations générales de conservation et d'évolution (*General equations of conservation and evolution*) 
-2. Modèles mathématiques pour l'aérodynamique (*Mathematical models for aerodynamics*)  
-3. Théorie des potentiels complexes : application aux profils d'aile (*Com*plex potential theory : application to airfoils*) 
-4. Théorie linéarisée des profils minces  (*Linearized theory of thin airfoils*) 
-5. Théorie de la ligne portante de Lanchester-Prandtl (*Lifting line Lanchester-Prandtl theory*)
-6. Théorie de la surface portante et des corps élancés (*Lifting surface theory and slender bodies*) 
-7. Aspects numériques : méthode des singularités (*panel method*)
-8. Ecoulements compressible subsonique et transsonique (*Compressible subsonic and transonic flow*)
-9. Ecoulements supersoniques linéarisés (*Linearized supersonic flows*)
-10. Ecoulements compressibles monodimensionnels (*One-dimensional compressible flows*)
-11. Ecoulements supersoniques bidimensionnels (*Two-dimensional supersonic flows*)
-12. Méthodes des caractéristiques en régimes stationnaire et instationnaire (*Method of characteristics for steady and unsteady flows*)
-13. Ecoulements supersoniques : corps élancés et ailes (*Slender bodies and wings in supersonic flows*)
-14. Ecoulements hypersoniques (*Hypersonic flows*)
-15. Effets visqueux et couche limite (*Viscous flows and boundary layer*)
+1. *General equations of conservation and evolution* - Equations générales de conservation et d'évolution 
+2. *Mathematical models for aerodynamics* - Modèles mathématiques pour l'aérodynamique  
+3. *Complex potential theory : application to airfoils* - Théorie des potentiels complexes : application aux profils d'aile 
+4. *Linearized theory of thin airfoils* - Théorie linéarisée des profils minces   
+5. *Lifting line Lanchester-Prandtl theory* - Théorie de la ligne portante de Lanchester-Prandtl 
+6. *Lifting surface theory and slender bodies* - Théorie de la surface portante et des corps élancés 
+7. *Panel method* - Aspects numériques : méthode des singularités 
+8. *Compressible subsonic and transonic flow* - Ecoulements compressible subsonique et transsonique 
+9. *Linearized supersonic flows* - Ecoulements supersoniques linéarisés 
+10. *One-dimensional compressible flows* - Ecoulements compressibles monodimensionnels
+11. *Two-dimensional supersonic flows* - Ecoulements supersoniques bidimensionnels 
+12. *Method of characteristics for steady and unsteady flows* - Méthodes des caractéristiques en régimes stationnaire et instationnaire
+13. *Slender bodies and wings in supersonic flows* - Ecoulements supersoniques : corps élancés et ailes
+14. *Hypersonic flows* - Ecoulements hypersoniques
+15. *Viscous flows and boundary layer* - Effets visqueux et couche limite
 
 #### Codes
 * The book contains the corrections of 119 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
 
 * Approximately 80 problems or exercices solutions are given in **Python**
-* Approximately 20 problems or exercices solutions are given in **Fortran**
+* Approximately 22 problems or exercices solutions are given in **Fortran**
 * Some corrections are also given in Matlab 
 * Some corrections are given in Maple (formal) language
 * Any part of codes written in Matlab or Maple can also be found (in some way) in Fortran or Python.
@@ -56,4 +56,12 @@ The suite will follow the chapter book which is written in the French language :
 
 ### Documentation
 * The book of exercices and problems provide the text and notations and some results.
-* Additional documentation generated with _Oxygen_ will be added for some parts of the codes/tools
+* Documentation of Fortran codes can generated with _Oxygen_
+* Documentation of Python codes can be generated with ... (to add the tool)
+
+## history of the sources
+
+The initial fortran codes have been written in 2011 for a course in compressible aerodynamics at Toulouse III university. It has been improved for the content of the first book "Aerodynamique Fondamentale" published in 2016 (Cépadues ed. Toulouse)
+and revised for the new book ("Exercices et problèmes d'aérodynamique fondamentale") which will be pubished around July 2019.
+
+The python sources have been written for the new book in 2017 and 2018.
