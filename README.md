@@ -30,7 +30,7 @@ The suite will follow the chapter book which is written in the French language :
 15. *Viscous flows and boundary layer* - Effets visqueux et couche limite
 
 #### Codes
-* The book contains the corrections of 119 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
+* The book contains the corrections of 121 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
 
 * Approximately 80 problems or exercices solutions are given in **Python**
 * Approximately 22 problems or exercices solutions are given in **Fortran**
