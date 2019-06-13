@@ -1,4 +1,4 @@
-# FunAeroSuite
+# FundAeroSuite
 ## Solutions of Fundamental Aerodynamics Exercices and Problems
 
 The text of the problems and exercices will be found into the book
@@ -7,9 +7,9 @@ Christophe Airiau, André Giovannini, Pierre Brancher
 Cépadues Editions, France
 2019
 
-The suite will contains python, fortran, matlab and Maple sources.
+The suite will contains Python, Fortran, Matlab and Maple sources.
 
-It will be soon available (March 2019)
+It will be soon available (July 2019)
 
 ### Content
 The suite will follow the chapter book which is written in the French language :
@@ -30,7 +30,7 @@ The suite will follow the chapter book which is written in the French language :
 15. *Viscous flows and boundary layer* - Effets visqueux et couche limite
 
 #### Codes
-* The book contains the corrections of 121 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
+* The book contains the corrections of 120 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
 
 * Approximately 80 problems or exercices solutions are given in **Python**
 * Approximately 22 problems or exercices solutions are given in **Fortran**
@@ -56,12 +56,12 @@ The suite will follow the chapter book which is written in the French language :
 
 ### Documentation
 * The book of exercices and problems provide the text and notations and some results.
-* Documentation of Fortran codes can generated with _Oxygen_
-* Documentation of Python codes can be generated with ... (to add the tool)
+* Documentation of Fortran codes can generated with _Doxygen_
+* Documentation of Python codes can be generated with _Doxygen_
 
 ## history of the sources
 
 The initial fortran codes have been written in 2011 for a course in compressible aerodynamics at Toulouse III university. It has been improved for the content of the first book "Aerodynamique Fondamentale" published in 2016 (Cépadues ed. Toulouse)
 and revised for the new book ("Exercices et problèmes d'aérodynamique fondamentale") which will be pubished around July 2019.
 
-The python sources have been written for the new book in 2017 and 2018.
+The python sources have been written for the new book in 2017, 2018 and 2019.
