@@ -1,0 +1,278 @@
+#!/bin/bash
+# C. Airiau, version laptop, oct. 2014
+#  simple plots with gnuplot
+#  Usage gp l filename colx coly colz colw
+#  option l : plot with lines, without  l :plot with symbol
+#  option logx : logscale in x, plot with lines only
+#  option logy : logscale in y, plot with lines only
+#  if no colx, .... : colx : 1, coly :2
+#
+#**************
+function aide()
+#**************
+{
+	echo -e "\n\t *****************************************************"
+	echo -e ' \t\t *****  Aide  ***** \n'
+	echo -e "\t =>  single file, multiple columns   <="
+	echo "Usage : $0 [option] filename [col_x] [col_y1] [col_y2] [col_y3] [col_y4] [col_y5]"
+	echo -e " \t\t\t\t or"
+	echo -e "\t =>  single columns, multiple files  <="
+	echo "Usage : $0 lf [option] [col_x] [col_y] [file_1] ... [file_n]"
+	echo -e " \n     :\t [ ] means option"
+	echo -e " Possible options :"
+	echo -e "\t l	: means with lines, otherthise : symbols"
+	echo -e "\t logx	: logscale in x, plot with lines only"
+	echo -e "\t logy	: logscale in y, plot with lines only"
+	echo -e "\t noleg	: no legend"
+	echo -e "\t equal	: axis equal"
+	echo -e "\t eps	: plot only in a eps file named gp.eps"
+	echo -e "\t e	: edit the file gp"
+	echo -e "\t s	: save the file gp in SAVE/"
+	echo -e "\t lf	: multiple files"
+
+	echo -e " Arguments :"
+	echo -e "\t col_k : indicates the index of the column to plot,"
+	echo -e "\t col_x : column of the x-axis"
+	echo -e "\t\t if only one column is indicated, x-index is assumed to be line index"
+	echo -e "\t\t and the indicated column is assumed to be col_y"
+	echo -e "\t\t if there is not any columns, index is assumed to be x, and col. 1 to y"
+    echo -e "\n examples : "
+    echo -e "\t gp l file.dat 1 2 3"
+    echo -e "\t gp l lf 1 2 *.dat "
+    echo -e "\t gp noleg  lf 1 2 *.dat "
+    echo -e "\t gp noleg eps logx logy  lf 1 2 *.dat "
+    echo -e "\t\t add the x or y labels : at the end of the options"
+    echo -e "\t gp lf  xlabel 'x' ylabel 'Mach' 1 2 *.dat "
+	echo -e "end of the help"
+	echo -e "\t *****************************************************\n"
+	exit
+}
+
+#*****************
+function present()
+#*****************
+# file existence
+{
+file=$1
+if [ -e $file ]; then
+	   echo 'file ' $file ' found'
+else
+	   echo 'file ' $file 'not found'; exit
+fi
+}
+
+#*****************
+function column()
+#*****************
+# count columns
+{
+file=$1
+egrep -v '#' $file > filetmp
+col=$(head -n1 filetmp | wc -w)
+if [ $col -eq 0 ]; then
+   echo 'found col = 0 , new calculation ...'
+   col=$(head -n5 filetmp | tail -n1 | wc -w)
+   #sed -i '/^$/d'  filetmp
+fi
+echo 'number of column in the file : ' $col
+}
+
+######################
+#     MAIN PROGRAMM
+######################
+#
+# additional global options :
+thickness=' lw 2 '
+
+n=$#;
+#echo 'number of argument' $n
+if [ -z $1 ]; then	aide; fi
+if [ -e gp.tmp ]; then /bin/rm gp.tmp; fi
+
+# initialization
+logx=0; logy=0; opt_eps=0;opt_line=0;wlines=''
+par=0; opt_multiple=0; option1='0'
+opt_legend=1
+opt_axis_equal=1
+#
+#   verify the options
+#
+for opt in $*; do
+    echo "option : " $opt
+	case $opt in
+		e) echo 'edit ~/bin/gp'
+		gvim ~/bin/gp; exit
+		;;
+		s) echo 'save the file in the SAVE directory'
+		#cp ~/bin/gp ~/SAVE/gp
+		#cp ~/bin/gp ~/flocia/tools/c-shell/.
+        dir_save=~/ownCloud/Bibliothèque/Scripts/.
+        echo "save in the directory : $dir_save"
+		cp ~/bin/gp $dir_save/.
+		exit 
+		;;
+        equal) echo 'axis equal'
+        opt_axis_equal=0
+        echo "set size ratio -1" >> gp.tmp
+		let par=$par+1; option[$par]=$opt
+        ;;
+        noleg) echo 'no legend'
+        opt_legend=0
+        echo "set nokey" >> gp.tmp
+		let par=$par+1; option[$par]=$opt
+        ;;
+		logx) echo 'logscale in x'
+		echo set logscale x >> gp.tmp;
+		opt_logx=1
+		let par=$par+1; option[$par]=$opt
+		;;
+		logy) echo 'logscale in y'
+		echo set logscale y >> gp.tmp;
+		opt_logy=1
+		let par=$par+1; option[$par]=$opt
+		;;
+		l) echo 'plot with lines'
+		wlines='with lines'
+		let par=$par+1; option[$par]=$opt
+		;;
+		lf) echo 'plot with multiple files'
+		opt_multiple=1
+		let par=$par+1; option[$par]=$opt
+		;;
+		eps) echo 'save in eps file, no plot'
+		opt_eps=1
+		echo 'set term postscript eps enhanced color solid' >> gp.tmp
+		echo "set output 'gp.eps' " >> gp.tmp
+		let par=$par+1; option[$par]=$opt
+	esac
+done
+echo "=> list of option on your command line:${option[@]}"
+echo "=> number of options : $par"
+
+if [ $par -gt 0 ]; then 
+    shift $par ; echo "par = $par"; echo $*;
+fi
+#
+#
+#   
+echo "=> remaining parameters :$*"
+n_para=$((n-$par)); echo 'number of columns =' $n_para
+#
+# new section, to add the labels
+#
+i=0;
+for choix in $*
+    do
+        Options[$i]=$choix;let i=$i+1
+    done
+echo 'options = ' ${Options[@]}
+i=0
+for choice in ${Options[@]}
+do  
+    echo $i $choice ${Options[$i]}
+    case $choice in 
+        ylabel) echo -e "\t\t ylabel found ";
+		echo set ylabel '"'${Options[$i+1]}'"'  >> gp.tmp;
+        shift 2;;
+        xlabel) echo -e "\t\t xlabel found ";
+		echo set xlabel '"'${Options[$i+1]}'"'  >> gp.tmp;
+        shift 2;;
+    esac
+    let i=$i+1
+done
+echo "end of the script"
+echo "arguments = $*"
+#
+# end of the new section
+#
+
+if [ $opt_multiple -eq 1 ]; then
+
+	# MULTIPLE FILES
+    nf=$#;  let nf=$nf-2
+	echo "plot with $nf files"
+	x=$1;y=$2
+	echo -e "=> col. x :  $x,\t   col. y :  $y"
+	shift 2
+	arg=$*; echo "files to plot : $arg"
+	i=0
+	for tmp in $*; do
+		  let i=$i+1
+		  file[$i]=$tmp
+	      # echo "file : ${file[$i]}"	  
+	done
+
+	echo      plot  \'${file[1]}\' using $x:$y $wlines $thickness, \\  >> gp.tmp
+	for (( i=2;i<$nf;i++)) ; do
+		echo       \'${file[$i]}\' using $x:$y $wlines $thickness, \\  >> gp.tmp
+	done
+		echo       \'${file[$nf]}\' using $x:$y $wlines $thickness    >> gp.tmp
+
+else
+
+	# SINGLE FILE
+	echo -e " \t \t \t *** single file plot ***"	
+	echo "assuming the next argument is a  file name =>  $1 "
+
+	if [ -z $1 ]; then
+		echo 'add a filename please'; exit
+	else
+		file=$1
+		present $file; column $file
+		shift 1
+		echo " remaining list of arguments =  $*"
+		if [ $# -eq 0 ]; then
+			x=0; y[1]=1;i=1
+		elif [ $# -eq 1 ]; then
+			x=0; y[1]=$1;i=1
+		else
+			x=$1;shift 1
+			i=0
+			for j in $*;do
+				let i=$i+1
+				y[$i]=$j
+			done
+		fi
+		ny=$i
+		echo "size of y = $ny"
+		echo "x= $x  , y[]=${y[@]}"
+		if [ $ny -gt 1 ]; then
+			echo plot  \'$file\' using $x:${y[1]} $wlines $thickness, \\       >> gp.tmp
+			for (( i=2;i<$ny;i++)) ; do
+				echo       \'$file\' using $x:${y[$i]} $wlines $thickness, \\  >> gp.tmp
+			done
+			echo			\'$file\' using $x:${y[$ny]} $wlines $thickness    >> gp.tmp
+		else
+			echo plot  \'$file\' using $x:${y[1]} $wlines  $thickness     >> gp.tmp
+		fi
+	fi
+fi
+   
+
+if [  $opt_eps -eq 0 ]; then
+	echo pause -1 \"return to quit\" >> gp.tmp
+fi
+gnuplot gp.tmp
+
+
+#rm -rf gp.tmp filetmp
+exit
+
+#
+#
+if [ $opt_eps -eq 0 ]; then
+	echo 'save is eps file (yes : y , no :n)'; read n
+	if [ $n == 'y' ]; then
+		rm -f gp_eps gp1.tmp
+		echo 'set term postscript eps enhanced color solid' >> gp_eps
+		echo "set output 'gp.eps' " >> gp_eps
+		n1=$(wc -l gp.tmp | cut -d' ' -f1) ; let n1=$n1-1
+		echo "n1 = $n1"
+		head -n$n1 gp.tmp > gp1.tmp
+		cat gp_eps gp1.tmp > gp.tmp
+		gnuplot gp.tmp
+		echo " the plot is saved in the file $(ls -al gp.eps)"
+		#rm -f gp_eps gp1.tmp
+	fi
+fi
+
