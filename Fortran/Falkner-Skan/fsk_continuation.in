@@ -1,0 +1,15 @@
+# fichier d'entrée pour conti.bin
+1                       # flag  = 1 : lecture des paramètres dans ce fichier, sinon mettre 0
+1                       #  1 : 1 calcul FSK, sinon Continuation
+0.0                    # beta init
+0.00500d0               # pas en beta => je détermine le nombre de points avec eta_max (plus bas)
+1.00d-4                # deta (pas en eta)
+0.10d-2                 # dL                ! pas pour la longueur de l'arc dans la continuation
+0.5d0                  # s_init            ! pour la convergence au début (f''(0))
+101                     # nombre de beta (Lmax) pour la continuation
+11.0d0                   # eta_max  (autour de 10 normalement, si profils décollés, prendre 20 à 30.
+1					 	# type de schéma : O : O1, 1 :O4
+# end
+
+
+
