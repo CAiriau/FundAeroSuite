@@ -10,10 +10,11 @@ Cépadues Editions, France
 The suite will contains python, fortran, matlab and Maple sources.
 
 It will be soon available (July 2019)
+
 ### Warnings
-	The main part of the code uses French language. 
-    In the future, it is possible that an English version appears on GitLab
-	*La grande majorité du code utile le français.*
+The main part of the code uses French language. 
+In the future, it is possible that an English version appears on GitLab
+*La grande majorité du code utile le français.*
 
 ### Content
 The suite will follow the chapter book which is written in the French language :
