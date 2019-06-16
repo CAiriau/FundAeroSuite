@@ -1,0 +1,48 @@
+#***********************************
+# Description du cas étudié
+#***********************************
+3                       # nombre de zones sans compter la zone 0 
+0.d0                    # incidence
+# Zone 0
+0                       # index de zone
+'Uniforme'              # type d'écoulement
+2.2d0                   # Mach
+230.d0                  # Ti0
+10000.d0                 # P0
+0.d0                    # Déviation
+0                       # zone amont
+# Zone 1
+1                       # index de zone
+'Choc'                  # type d'écoulement
+7.d0                    # Déviation
+0                       # zone amont
+# Zone 2
+2                       # index de zone
+'Choc'               # type d'écoulement
+12.d0                  # Déviation
+1                       # zone amont
+# Zone 3
+3                       # index de zone
+'Choc'                  # type d'écoulement
+0.d0                    # Déviation
+2                       # zone amont
+
+# fin des données
+
+
+#***********************************
+# Exemples de cas :
+#***********************************
+# Zone 3
+3                       # index de zone
+'Rien'                  # type d'écoulement
+0.d0                    # Déviation
+2                       # zone amont
+
+
+
+
+
+
+
+
