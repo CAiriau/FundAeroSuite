@@ -1,4 +1,4 @@
-# FunAeroSuite
+# FundAeroSuite
 ## Solutions of Fundamental Aerodynamics Exercices and Problems
 
 The text of the problems and exercices will be found into the book
@@ -9,7 +9,11 @@ Cépadues Editions, France
 
 The suite will contains python, fortran, matlab and Maple sources.
 
-It will be soon available (March 2019)
+It will be soon available (July 2019)
+### Warnings
+	The main part of the code uses French language. 
+    In the future, it is possible that an English version appears on GitLab
+	*La grande majorité du code utile le français.*
 
 ### Content
 The suite will follow the chapter book which is written in the French language :
@@ -30,7 +34,7 @@ The suite will follow the chapter book which is written in the French language :
 15. *Viscous flows and boundary layer* - Effets visqueux et couche limite
 
 #### Codes
-* The book contains the corrections of 121 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
+* The book contains the corrections of 120 problems and exercices and the suite is composed of the corrections of approximately 100 of them.
 
 * Approximately 80 problems or exercices solutions are given in **Python**
 * Approximately 22 problems or exercices solutions are given in **Fortran**
@@ -55,9 +59,9 @@ The suite will follow the chapter book which is written in the French language :
 * In each directory a README file help to understand the content and gives some indications for installation.
 
 ### Documentation
-* The book of exercices and problems provide the text and notations and some results.
-* Documentation of Fortran codes can generated with _Oxygen_
-* Documentation of Python codes can be generated with ... (to add the tool)
+* The book of exercices and problems provides the text and notations and some results.
+* Documentation of Fortran codes can be generated with _Oxygen_
+* Documentation of Python codes can be generated with _DOxygen_
 
 ## history of the sources
 
