@@ -16,7 +16,7 @@ The suite  contains python, fortran, matlab and Maple sources.
 The main part of the code uses French language. 
 In the future, it is possible that an English version appears on GitLab
 
-*La grande majorité du code utile le français.*
+*La grande majorité du code utilise le français.*
 
 ### Content
 The suite will follow the chapter book which is written in the French language :
