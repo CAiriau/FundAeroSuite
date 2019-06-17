@@ -5,15 +5,17 @@ The text of the problems and exercices will be found into the book
 **Exercices et Problèmes d'Aérodynamique Fondamentale**,
 Christophe Airiau, André Giovannini, Pierre Brancher
 Cépadues Editions, France
-2019
+2019,  I.S.B.N. : 9782364937253, 383 pages.
+ 
+https://www.cepadues.com/livres/exercices-problemes-aerodynamique-fondamentale-accompagnes-des-codes-solutions-python-fortran-9782364937253.html
 
-The suite will contains python, fortran, matlab and Maple sources.
-
-It will be soon available (July 2019)
-
+The suite  contains python, fortran, matlab and Maple sources.
+ 
 ### Warnings
+
 The main part of the code uses French language. 
 In the future, it is possible that an English version appears on GitLab
+
 *La grande majorité du code utile le français.*
 
 ### Content
