@@ -1,0 +1,13 @@
+# input file to solve conical shocks
+2               # option : 1: the Mach numbers are in a table found in the source file,   2 : table below
+1               # number of Mach number (option 2), if = 0 , the table is build with a Mach variation  delta_Mach
+0.01            # delta_Mach, Mach number step
+2.00d0          # Initial Mach number
+1.02d0          # Final Mach number
+1001            # Number of points on the plot for a given Mach number  
+1.d-2           # Accuracy to determine the wall deviation angle, for a given shock wave angle (in degrees)  
+1               # 1 : Newton's algorithm     0 : Order 1 integration  (less accurate)
+10001           # number of discrete points  - angle - between the shock line and the wall
+1.d-5           # abs(u_theta) on the cone wall
+0               # velocity option =>  1: tangential velocity is saved in a file  
+

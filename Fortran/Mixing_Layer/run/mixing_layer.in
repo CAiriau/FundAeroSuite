@@ -1,0 +1,8 @@
+# input file for mixing_layer 
+1                            # turbulence, O : Uref=U1 (laminar),  1 : Uref= (U1+U2)/2 (turbulent)
+1.0                          # u1 
+0.25                         # u2 or lambda =u2/u1 if u1 = 1
+0.0004                       # deta, step in the eta direction
+20.                          # eta_max,  il >= eta_max/deta
+50000                        # half mesh size 
+1                            # 0: Euler O1, 1: RK4 

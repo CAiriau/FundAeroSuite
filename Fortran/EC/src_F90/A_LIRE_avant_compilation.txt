@@ -1,8 +1,0 @@
-lorsqu'on modifie une module
-il faut écrire dans un terminal
-
-make clean
-(pour effacer les fichiers modules modifiés)
-puis
-
-make

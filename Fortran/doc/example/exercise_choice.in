@@ -1,0 +1,54 @@
+# this file contains the choice of the exercises to solve
+#  ligne 3 indicates the number of exercise to solve
+#  In the next line indicate the chapter and the index of the exercise. Please follow the example below.
+1                           # number of exercise
+12 3                        # example of chapter and exercise
+11 61
+11 10
+
+# end                               
+
+
+# list of the exercises available :
+
+
+          #**************
+          # CHAPTER 10
+          #**************
+          #
+10 1      #  Exercice_10_1    ! Normal shock wave / Calcul d'un choc droit
+10 2      #  Exercice_10_2    ! Normal shock wave calculus / Calcul pratique d'un choc droit
+          #  exo_Laval        ! Laval Nozzle 
+10 3      #  Exercice_10_3    ! Subsonic Fanno's flow / Ecoulement de Fanno subsonique
+10 4      #  Exercice_10_4    ! Supersonic Fanno's flow / Ecoulement de Fanno supersonique
+10 5      #  Exercice_10_5    ! Rayleigh's flow / Ecoulement de Rayleigh
+10 6      #  Exercice_10_6    ! Rayleigh's flow with combustion / Ecoulement de Rayleigh + combustion
+10 7      #  Exercice_10_7    ! Pitot tube in subsonic regime / Pitot subsonique
+10 8      #  Exercice_10_8    ! Pitot tube in supersonic regime / Pitot supersonique
+10 9      #  Exercice_10_9    ! Regimes in nozzles  / Régimes dans une tuyere
+          #
+          #**************
+          # CHAPTER 11
+          #**************
+          #
+11 1      #  Exercice_11_1    ! Flat plate in incidence / plaque en incidence
+11 2      #  Exercice_11_2    ! Diamond airfoil / profil losangique   
+11 3      #  Exercice_11_3    ! Shock-expansion method / methode choc detente
+11 4      #  Exercice_11_4    ! Shocks in a channel / Choc dans un canal
+11 5      #  Exercice_11_5    ! Two obliques shock wave interactions / Interaction de 2 chocs obliques
+11 6      #  Exercice_11_6      ! Backward facing step  (simple program) / Marche descendante (programmation basique)
+11 61     #  Exercice_11_6bis   ! Backward facing step (2nd program) / Marche descendante (2nd programmation)
+11 7      #  Exercice_11_7      ! Shock - isobar line interactions of a fluid at rest  / interaction choc - ligne isobare avec fluide au repos
+11 8      #  Exercice_11_8      ! Expansion - isobar line interactions of a fluid at rest / interaction détente - ligne isobare avec fluide au repos
+11 9      #  Exercice_11_9      ! Expansion - wall interaction / interaction détente - paroi
+11 10     #  Exercice_11_10     ! Two upstream flow  separated by a isobar line  - oblique shock interaction / deux écoulements amont + Ligne de glissement + choc oblique
+11 11     #  Exercice_11_11     ! Interaction of shock waves in a nozzle outlet / tuyère : interaction d'ondes de chocs en sortie
+11 12     #  Exercice_11_12     ! Interaction of a centered expansion in a nozzle outlet / tuyère : interaction d'un faisceau de détente en sortie
+          #
+          #**************
+          # CHAPTER 12
+          #**************
+          #
+12 3      #  Exercice_12_3     ! Shock tube application / application du tube à choc.
+
+the third  column is the Python reference and the last column is the name of the exercise.

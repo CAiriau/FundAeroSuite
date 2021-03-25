@@ -1,0 +1,47 @@
+#***********************************
+# case description
+#***********************************
+3                       # number of zones (without the upstream zone indexed 0) 
+0.d0                    # incidence
+# Zone 0
+0                       # zone index
+'Uniforme'              # flow type
+2.2d0                   # Mach number
+230.d0                  # Ti0
+10000.d0                # P0
+0.d0                    # flow deviation angle in °
+0                       # upstream zone
+# Zone 1
+1                       # zone index
+'Choc'                  # flow type
+7.d0                    # flow deviation angle in °
+0                       # upstream zone
+# Zone 2
+2                       # zone index
+'Choc'                  # flow type
+12.d0                   # flow deviation angle in °
+1                       # upstream zone
+# Zone 3
+3                       # index de zone
+'Choc'                  # type d'écoulement
+0.d0                    # flow deviation angle in °
+2                       # upstream zone
+
+# end of the data
+
+
+flow type can be :
+'rien'          : nothing happen
+'Uniforme'      : uniform flow
+'Choc'          : shock wave
+'Detente'       : expansion
+
+Please keep the right format
+
+Sometimes it it better to let incidence to 0 and to modify manualy the deviation angle 
+
+
+
+
+
+
