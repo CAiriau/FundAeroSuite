@@ -1,18 +1,28 @@
-Pour rendre utilisable le script shell gp
-il faut faire
+# gp tool 
+
+## what is it ?
+
+gp is a Bash shell script using gnuplot to plot 2D curves with simple online command. 
+
+It is very simple when plotting very fast data in a text file.
+
+
+## Installation
+
+* To be run the gp script must be defined as a command:
+
+In a terminal write :
+
 chmod a+x gp
 
-puis le copier dans le dossier ~/bin (à créer éventuellement s'il n'existe pas)
+* It is adviced to copy the script into a local *~/bin* directory 
 
-ainsi en faisant gp dans un terminal vous pourrez l'utiliser quelque soit l'endroit
-de l'arborescence du disque dur.
+Then *gp* command will be recognized in any terminal.
+ 
 
-La doc de gp est en ligne de commande  en écrivant simplement dans un terminal :
-gp  
+# Documentation
 
+The online help is given in terminal by the simple command:
 
-Je m'en sers très souvent, car il permet de faire de visualisation très rapidement, à la volée.
+gp
 
-Ce script utilise gnuplot (qui doit donc être installé sur la machine)
-
-C. Airiau, Avril 2018

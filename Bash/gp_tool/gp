@@ -8,11 +8,11 @@
 #  if no colx, .... : colx : 1, coly :2
 #
 #**************
-function aide()
+function help()
 #**************
 {
 	echo -e "\n\t *****************************************************"
-	echo -e ' \t\t *****  Aide  ***** \n'
+	echo -e ' \t\t *****  help  ***** \n'
 	echo -e "\t =>  single file, multiple columns   <="
 	echo "Usage : $0 [option] filename [col_x] [col_y1] [col_y2] [col_y3] [col_y4] [col_y5]"
 	echo -e " \t\t\t\t or"
@@ -86,7 +86,7 @@ thickness=' lw 2 '
 
 n=$#;
 #echo 'number of argument' $n
-if [ -z $1 ]; then	aide; fi
+if [ -z $1 ]; then	help; fi
 if [ -e gp.tmp ]; then /bin/rm gp.tmp; fi
 
 # initialization
@@ -197,9 +197,9 @@ if [ $opt_multiple -eq 1 ]; then
 	arg=$*; echo "files to plot : $arg"
 	i=0
 	for tmp in $*; do
-		  let i=$i+1
-		  file[$i]=$tmp
-	      # echo "file : ${file[$i]}"	  
+		let i=$i+1
+		file[$i]=$tmp
+	    # echo "file : ${file[$i]}"	  
 	done
 
 	echo      plot  \'${file[1]}\' using $x:$y $wlines $thickness, \\  >> gp.tmp
@@ -247,7 +247,6 @@ else
 		fi
 	fi
 fi
-   
 
 if [  $opt_eps -eq 0 ]; then
 	echo pause -1 \"return to quit\" >> gp.tmp
