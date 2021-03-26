@@ -1,6 +1,6 @@
 # FundAeroSuite
 
-** The master is branch is old (2019), please select the branch named "master_EN" to have the latest branch, in English**
+**The master is branch is old (2019), please select the branch named "master_EN" to have the latest branch, in English**
 
 ## Solutions of Fundamental Aerodynamics Exercices and Problems
 
