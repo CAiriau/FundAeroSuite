@@ -6,6 +6,9 @@ The text of the problems and exercices are found into the textbook
 
 ---
 
+[here](https://stabfem.gitlab.io/StabFem_Develop/)
+
+
 **Exercices et Problèmes d'Aérodynamique Fondamentale**
 
 Christophe Airiau, André Giovannini, Pierre Brancher
@@ -14,7 +17,7 @@ Cépadues Editions, France
 
 2019,  I.S.B.N. : 9782364937253, 383 pages.
 
-Link: <https://www.cepadues.com/livres/exercices-problemes-aerodynamique-fondamentale-accompagnes-des-codes-solutions-python-fortran-9782364937253.html>
+[Link](https://www.cepadues.com/livres/exercices-problemes-aerodynamique-fondamentale-accompagnes-des-codes-solutions-python-fortran-9782364937253.html)
 
 ---
 The suite  contains some python, fortran, matlab and Maple sources.
