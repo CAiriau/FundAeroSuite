@@ -146,58 +146,59 @@ The list is written in French, as the textbook. But English translation can be f
          9.2.3 Profil losangique placé dans un canal supersonique                   {194}
          9.2.4 Remarque sur le plan de l'hodographe                                 {196}
  
- CHAPITRE:{{10}\'Ecoulements compressibles monodimensionnels}{197}
+ # CHAPTER 10: Ecoulements compressibles monodimensionnels
  
-     {{10.0}RAPPELS}{197}
-          {{10.0.1}Introduction}{197}
-          {{10.0.2}Lois isentropiques}{198}
-          {{10.0.3}Relations du choc droit}{198}
-          {{10.0.4}\'Ecoulement monodimensionnel dans une tuy�re}{198}
-          {{10.0.5}\'Ecoulement monodimensionnel avec frottement : lois de Fanno}{199}
-          {{10.0.6}\'Ecoulement monodimensionnel avec apport de chaleur : lois de Rayleigh}{201}
-     {{10.1}Calcul d'un choc droit}{202}
-     {{10.1.1}Exemple �l�mentaire { (niveau I)}}{202}
-     {{10.1.2}Compression par choc et compression isentropique { (niveau I)}}{202}
-     {{10.2}\'Ecoulement dans une conduite}{203}
-     {{10.2.1}\'Ecoulement de Fanno : r�gime amont subsonique { (niveau I)}}{203}
-     {{10.2.2}\'Ecoulement de Fanno : r�gime amont supersonique { (niveau II)}}{205}
-     {{10.2.3}\'Ecoulement de Rayleigh { (niveau I)}}{206}
-     {{10.2.4}\'Ecoulement de Rayleigh : apport de chaleur par combustion { (niveau I)}}{207}
-     {{10.3}Mesure de vitesse par tube de Pitot}{209}
-     {{10.3.1}R�gime subsonique { (niveau I)}}{209}
-     {{10.3.2}R�gime supersonique { (niveau I)}}{210}
-     {{10.4}Tuy�res}{211}
-     {{10.4.1}Diff�rents r�gimes d'�coulement dans une tuy�re { (niveau II)}}{211}
-     {{10.4.2}Pouss�e d'une tuy�re de propulseur { (niveau III)}}{214}
-     {{10.4.3}Tuy�re supersonique et tube de Pitot { (niveau I)}}{219}
-     {{10.4.4}Moteur de fus�e { (niveau I)}}{220}
+     10.0 RAPPELS                                                                   {197}
+         10.0.1 Introduction                                                        {197}
+         10.0.2 Lois isentropiques                                                  {198}
+         10.0.3 Relations du choc droit                                             {198}
+         10.0.4 Ecoulement monodimensionnel dans une tuyère                         {198}
+         10.0.5 Ecoulement monodimensionnel avec frottement : lois de Fanno         {199}
+         10.0.6 Ecoulement monodimensionnel avec apport de chaleur: 
+                lois de Rayleigh                                                    {201}
+     10.1 Calcul d'un choc droit                                                    {202}
+         10.1.1 Exemple élémentaire                                                 {202}
+         10.1.2 Compression par choc et compression isentropique                    {202}
+    10.2 Ecoulement dans une conduite                                               {203}
+         10.2.1 Ecoulement de Fanno : régime amont subsonique                       {203}
+         10.2.2 ecoulement de Fanno : régime amont supersonique                     {205}
+         10.2.3 Ecoulement de Rayleigh                                              {206}
+         10.2.4 Ecoulement de Rayleigh : apport de chaleur par combustion           {207}
+     10.3 Mesure de vitesse par tube de Pitot                                       {209}
+         10.3.1 Régime subsonique                                                   {209}
+         10.3.2 Régime supersonique                                                 {210}
+     10.4 Tuyères                                                                   {211}
+         10.4.1 Différents régimes d'écoulement dans une tuyère                     {211}
+         10.4.2 Poussée d'une tuyère de propulseur                                  {214}
+         10.4.3 Tuyère supersonique et tube de Pitot                                {219}
+         10.4.4 Moteur de fusée                                                     {220}
  
- CHAPITRE:{{11}\'Ecoulements supersoniques bidimensionnels}{221}
+ # CHAPTER 11 : Ecoulements supersoniques bidimensionnels
  
-     {{11.0}RAPPELS}{221}
-          {{11.0.1}Introduction}{221}
-          {{11.0.2}Choc oblique}{222}
-          {{11.0.3}D�tente de Prandtl-Meyer}{223}
-          {{11.0.4}Coefficients a�rodynamiques}{223}
-          {{11.0.5}Diagramme pression-d�viation}{224}
-     {{11.1}\'Ecoulement autour d'un profil}{225}
-     {{11.1.1}Coefficients a�rodynamiques d'un profil en incidence { (niveau II)}}{225}
-     {{11.1.2}Plaque plane en incidence { (niveau I)}}{226}
-     {{11.1.3}\'Ecoulement supersonique autour d'un profil losangique { (niveau II)}}{229}
-     {{11.1.4}M�thode choc-d�tente pour un profil lenticulaire { (niveau III)}}{233}
-     {{11.2}Autres g�om�tries}{235}
-     {{11.2.1}\'Ecoulement supersonique dans un canal: r�flexions d'onde de choc { (niveau II)}}{235}
-     {{11.2.2}Interaction de deux chocs obliques de la m�me famille { (niveau II)}}{237}
-     {{11.2.3}Marche descendante en �coulement supersonique { (niveau I)}}{239}
-     {{11.3}R�flexion et interactions}{241}
-     {{11.3.1}R�flexion d'une onde de choc sur une ligne isobare { (niveau II)}}{241}
-     {{11.3.2}R�flexion d'un faisceau de d�tente sur une ligne isobare { (niveau II)}}{242}
-     {{11.3.3}R�flexion d'un faisceau de d�tente sur une paroi solide { (niveau II)}}{244}
-     {{11.3.4}Interaction onde de choc oblique - ligne de glissement { (niveau III)}}{246}
-     {{11.4}Tuy�res}{249}
-     {{11.4.1}Tuy�re : interaction d'ondes de chocs en sortie { (niveau III)}}{249}
-     {{11.4.2}Tuy�re : interaction d'un faisceau de d�tente en sortie { (niveau II)}}{251}
-     {{11.4.3}Trac� de lignes caract�ristiques dans le plan de l'hodographe { (niveau II)}}{253}
+     11.0 RAPPELS                                                                   {221}
+         11.0.1 Introduction                                                        {221}
+         11.0.2 Choc oblique                                                        {222}
+          11.0.3 Détente de Prandtl-Meyer                                           {223}
+          11.0.4 Coefficients aérodynamiques                                        {223}
+          11.0.5 Diagramme pression-déviation                                       {224}
+     11.1 Ecoulement autour d'un profil                                             {225}
+          11.1.1 Coefficients aérodynamiques d'un profil en incidence               {225}
+          11.1.2 Plaque plane en incidence                                          {226}
+          11.1.3 Ecoulement supersonique autour d'un profil losangique              {229}
+          11.1.4 Méthode choc-détente pour un profil lenticulaire                   {233}
+     11.2 Autres géométries                                                         {235}
+          11.2.1 Ecoulement supersonique dans un canal: réflexions d'onde de choc   {235}
+          11.2.2 Interaction de deux chocs obliques de la même famille              {237}
+          11.2.3 Marche descendante en écoulement supersonique                      {239}
+     11.3 Réflexion et interactions                                                 {241}
+          11.3.1 Réflexion d'une onde de choc sur une ligne isobare                 {241}
+          11.3.2 Réflexion d'un faisceau de détente sur une ligne isobare           {242}
+          11.3.3 Réflexion d'un faisceau de détente sur une paroi solide            {244}
+          11.3.4 Interaction onde de choc oblique - ligne de glissement             {246}
+     11.4 Tuyères                                                                   {249}
+          11.4.1 Tuyère : interaction d'ondes de chocs en sortie                    {249}
+          11.4.2 Tuyère : interaction d'un faisceau de détente en sortie            {251}
+          11.4.3 Tracé de lignes caractéristiques dans le plan de l'hodographe      {253}
  
  CHAPITRE:{{12}M�thodes des caract�ristiques en r�gimes stationnaire et instationnaire}{255}
  
