@@ -62,39 +62,39 @@ The list is written in French, as the textbook. But English translation can be f
         d'envergure infinie                                                         {76}
     4.7 Profil NACA 4 chiffres                                                      {78}
  
- CHAPITRE:{{5}Th�orie de la ligne portante de Lanchester-Prandtl}{81}
+ # CHAPTER 5: Théorie de la ligne portante de Lanchester-Prandtl
  
-     {{5.0}RAPPELS}{81}
-          {{5.0.1}Introduction}{81}
-          {{5.0.2}Th�orie de Lanchester-Prandtl}{82}
-          {{5.0.3}M�thode de Glauert}{83}
-          {{5.0.4}Loi de Biot-Savart et tube tourbillon}{84}
-     {{5.1}Calcul analytique des coefficients $A_n$}{85}
-     {{5.1.1}Aile optimale elliptique { (niveau I)}}{85}
-     {{5.1.2}Vrillage d'une aile elliptique { (niveau I)}}{87}
-     {{5.1.3}Braquage d'un volet sur une aile elliptique { (niveau I)}}{92}
-     {{5.1.4}Calcul du foyer sur une aile elliptique { (niveau II)}}{95}
-     {{5.2}Sillages}{97}
-     {{5.2.1}Sillage tourbillonnaire de l'Airbus A380-800 { (niveau II)}}{97}
-     {{5.2.2}Corrections de soufflerie { (niveau II)}}{99}
-     {{5.2.3}Tourbillon en fer � cheval { (niveau II)}}{102}
-     {{5.2.4}Vol en formation { (niveau II)}}{106}
-     {{5.2.5}Tourbillons de sillage au voisinage du sol { (niveau I)}}{108}
-     {{5.3}R�solution num�rique du probl�me de Prandtl}{110}
-     {{5.3.1}Cas g�n�ral d'une aile en milieu infini { (niveau II)}}{110}
-     {{5.3.2}Ligne portante : aile avec effet de sol { (niveau II)}}{118}
+    5.0 RAPPELS                                                                     {81}
+        5.0.1 Introduction                                                          {81}
+        5.0.2 Théorie de Lanchester-Prandtl                                         {82}
+        5.0.3 Méthode de Glauert                                                    {83}
+        5.0.4 Loi de Biot-Savart et tube tourbillon}                                {84}
+     5.1 Calcul analytique des coefficients A_n                                     {85}
+        5.1.1 Aile optimale elliptique                                              {85}
+        5.1.2 Vrillage d'une aile elliptique                                        {87}
+        5.1.3 Braquage d'un volet sur une aile elliptique                           {92}
+        5.1.4 Calcul du foyer sur une aile elliptique                               {95}
+     5.2 Sillages                                                                   {97}
+        5.2.1 Sillage tourbillonnaire de l'Airbus A380-800                          {97}
+        5.2.2 Corrections de soufflerie                                             {99}
+        5.2.3 Tourbillon en fer à cheval                                            {102}
+        5.2.4 Vol en formation                                                      {106}
+        5.2.5 Tourbillons de sillage au voisinage du sol                            {108}
+     5.3 Résolution numérique du problème de Prandtl                                {110}
+        5.3.1 Cas général d'une aile en milieu infini                               {110}
+        5.3.2 Ligne portante : aile avec effet de sol                               {118}
+
+ # CHAPTER 6: Théorie de la surface portante et des corps élancés                  
  
- CHAPITRE:{{6}Th�orie de la surface portante et des corps �lanc�s}{121}
+     6.0 RAPPELS                                                                    {121}
+         6.0.1 Introduction                                                         {121}
+         6.0.2 Théorie de la surface portante                                       {122}
+         6.0.3 Théorie des corps élancés                                            {123}
+     6.1 Evolution du coefficient de portance d'une aile avec l'allongement         {125}
+     6.2 Aile en forme de Delta                                                     {126}
+     6.3 Distribution de pression sur un ellipsoïde                                 {127}
  
-     {{6.0}RAPPELS}{121}
-          {{6.0.1}Introduction}{121}
-          {{6.0.2}Th�orie de la surface portante}{122}
-          {{6.0.3}Th�orie des corps �lanc�s}{123}
-     {{6.1}\'Evolution du coefficient de portance d'une aile avec l'allongement { (niveau I)}}{125}
-     {{6.2}Aile en forme de Delta { (niveau I)}}{126}
-     {{6.3}Distribution de pression sur un ellipso�de { (niveau III)}}{127}
- 
- CHAPITRE:{{7}Aspects num�riques: m�thode des singularit�s}{133}
+ # CHAPITRE:{{7}Aspects num�riques: m�thode des singularit�s}{133}
  
      {{7.0}RAPPELS}{133}
           {{7.0.1}Introduction, m�thodologie}{133}
