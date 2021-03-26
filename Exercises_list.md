@@ -178,94 +178,97 @@ The list is written in French, as the textbook. But English translation can be f
      11.0 RAPPELS                                                                   {221}
          11.0.1 Introduction                                                        {221}
          11.0.2 Choc oblique                                                        {222}
-          11.0.3 Détente de Prandtl-Meyer                                           {223}
-          11.0.4 Coefficients aérodynamiques                                        {223}
-          11.0.5 Diagramme pression-déviation                                       {224}
+         11.0.3 Détente de Prandtl-Meyer                                            {223}
+         11.0.4 Coefficients aérodynamiques                                         {223}
+         11.0.5 Diagramme pression-déviation                                        {224}
      11.1 Ecoulement autour d'un profil                                             {225}
-          11.1.1 Coefficients aérodynamiques d'un profil en incidence               {225}
-          11.1.2 Plaque plane en incidence                                          {226}
-          11.1.3 Ecoulement supersonique autour d'un profil losangique              {229}
-          11.1.4 Méthode choc-détente pour un profil lenticulaire                   {233}
+         11.1.1 Coefficients aérodynamiques d'un profil en incidence                {225}
+         11.1.2 Plaque plane en incidence                                           {226}
+         11.1.3 Ecoulement supersonique autour d'un profil losangique               {229}
+         11.1.4 Méthode choc-détente pour un profil lenticulaire                    {233}
      11.2 Autres géométries                                                         {235}
-          11.2.1 Ecoulement supersonique dans un canal: réflexions d'onde de choc   {235}
-          11.2.2 Interaction de deux chocs obliques de la même famille              {237}
-          11.2.3 Marche descendante en écoulement supersonique                      {239}
+         11.2.1 Ecoulement supersonique dans un canal: réflexions d'onde de choc    {235}
+         11.2.2 Interaction de deux chocs obliques de la même famille               {237}
+         11.2.3 Marche descendante en écoulement supersonique                       {239}
      11.3 Réflexion et interactions                                                 {241}
-          11.3.1 Réflexion d'une onde de choc sur une ligne isobare                 {241}
-          11.3.2 Réflexion d'un faisceau de détente sur une ligne isobare           {242}
-          11.3.3 Réflexion d'un faisceau de détente sur une paroi solide            {244}
-          11.3.4 Interaction onde de choc oblique - ligne de glissement             {246}
+         11.3.1 Réflexion d'une onde de choc sur une ligne isobare                  {241}
+         11.3.2 Réflexion d'un faisceau de détente sur une ligne isobare            {242}
+         11.3.3 Réflexion d'un faisceau de détente sur une paroi solide             {244}
+         11.3.4 Interaction onde de choc oblique - ligne de glissement              {246}
      11.4 Tuyères                                                                   {249}
-          11.4.1 Tuyère : interaction d'ondes de chocs en sortie                    {249}
-          11.4.2 Tuyère : interaction d'un faisceau de détente en sortie            {251}
-          11.4.3 Tracé de lignes caractéristiques dans le plan de l'hodographe      {253}
+         11.4.1 Tuyère : interaction d'ondes de chocs en sortie                     {249}
+         11.4.2 Tuyère : interaction d'un faisceau de détente en sortie             {251}
+         11.4.3 Tracé de lignes caractéristiques dans le plan de l'hodographe       {253}
  
- CHAPITRE:{{12}M�thodes des caract�ristiques en r�gimes stationnaire et instationnaire}{255}
+ # CHAPTER 12: Méthodes des caractéristiques en régimes stationnaire et instationnaire
  
-     {{12.0}RAPPELS}{255}
-          {{12.0.1}Introduction}{255}
-          {{12.0.2}\'Ecoulement stationnaire bidimensionnel}{256}
-          {{12.0.3}\'Ecoulement instationnaire monodimensionnel}{257}
-     {{12.1}\'Ecoulement supersonique dans un canal plan { (niveau III)}}{257}
-     {{12.2}Tuy�re de longueur minimale { (niveau IV)}}{262}
-     {{12.3}Piston uniform�ment acc�l�r� { (niveau I)}}{268}
-     {{12.4}Tube � choc { (niveau III)}}{271}
-     CHAPITRE:{{13}Corps �lanc�s en �coulements supersoniques}{275}
-     {{13.0}RAPPELS}{275}
-          {{13.0.1}Introduction.}{275}
-          {{13.0.2}Corps �lanc�s: potentiel et coefficient de pression.}{276}
-          {{13.0.3}Optimisation de la tra�n�e sur un corps �lanc�}{277}
-     {{13.1}Solutions �l�mentaires pour un point source { (niveau I)}}{278}
-     {{13.2}Obstacle conique { (niveau II)}}{280}
-     {{13.3}Ogive parabolique { (niveau III)}}{283}
-     {{13.4}Optimisation sur le corps de Sears { (niveau IV)}}{286}
-     {{13.5}Mach amont minimal sur un corps conique { (niveau II)}}{291}
+     12.0 RAPPELS                                                                   {255}
+          12.0.1 Introduction                                                       {255}
+          12.0.2 Ecoulement stationnaire bidimensionnel                             {256}
+          12.0.3 Ecoulement instationnaire monodimensionnel                         {257}
+     12.1 Ecoulement supersonique dans un canal plan                                {257}
+     12.2 Tuyère de longueur minimale                                               {262}
+     12.3 Piston uniformément accéléré                                              {268}
+     12.4 Tube à choc                                                               {271}
+     
+ # CHAPTER 13: Corps élancés en écoulements supersoniques
  
- CHAPITRE:{{14}\'Ecoulements hypersoniques}{293}
-     {{14.0}RAPPELS}{293}
-          {{14.0.1}Introduction}{293}
-          {{14.0.2}Onde de choc droite}{293}
-          {{14.0.3}Onde de choc oblique et similitude hypersonique}{294}
-          {{14.0.4}D�tente de Prandtl-Meyer}{295}
-          {{14.0.5}Choc conique en hypersonique}{296}
-          {{14.0.6}M�thode de Newton}{297}
-     {{14.0.7}M�thodes de calcul}{297}
-     {{14.1}Profils losangique et triangulaire { (niveau II)}}{298}
-     {{14.2}Plaque plane { (niveau I)}}{301}
-     {{14.3}\'Ecoulement autour de c�nes ou de di�dres { (niveau II)}}{303}
-     {{14.4}M�thodes de calcul pour les obstacles pointus { (niveau III)}}{305}
-     {{14.5}Tra�n�e hypersonique minimale { (niveau III)}}{309}
-     {{14.6}M�thodes de calcul pour les obstacles �mouss�s { (niveau IV)}}{312}
+     13.0 RAPPELS                                                                   {275}
+         13.0.1 Introduction                                                        {275}
+         13.0.2 Corps élancés: potentiel et coefficient de pression                 {276}
+         13.0.3 Optimisation de la traînée sur un corps élancé                      {277}
+     13.1 Solutions élémentaires pour un point source                               {278}
+     13.2 Obstacle conique                                                          {280}
+     13.3 Ogive parabolique                                                         {283}
+     13.4 Optimisation sur le corps de Sears                                        {286}
+     13.5 Mach amont minimal sur un corps conique                                   {291}
  
- CHAPITRE:{{15}Effets visqueux et couche limite}{317}
-     {{15.0}RAPPELS}{317}
-          {{15.0.1}Introduction}{317}
-          {{15.0.2}R�gime laminaire}{318}
-          {{15.0.3}R�gime transitionnel}{319}
-               {paragraph}{1- Crit�re de Michel\\}{320}
-               {paragraph}{2- Crit�re de Cebeci et Smith\\}{320}
-               {paragraph}{3- Crit�re de Granville\\ }{321}
-          {{15.0.4}R�gime turbulent}{321}
-     {{15.1}R�gime laminaire}{324}
-     {{15.1.1}Plaque plane: loi approch�e en sinus { (niveau I)}}{324}
-     {{15.1.2}Plaque plane : loi polynomiale { (niveau III)}}{325}
-     {{15.1.3}Aspiration uniforme d'une couche limite de plaque plane { (niveau I)}}{329}
-     {{15.1.4}Mise en mouvement brusque d'une plaque plane { (niveau II)}}{330}
-     {{15.1.5}Plaque plane : relations int�grales avec soufflage/aspiration { (niveau I)}}{332}
-     {{15.1.6}\'Ecoulement de Couette instationnaire { (niveau II)}}{334}
-     {{15.1.7}\'Ecoulement oscillant : deuxi�me probl�me de Stokes { (niveau II)}}{337}
-     {{15.1.8}Solution de similitude avec gradient de pression : solution de Falkner et Skan { (niveau III)}}{339}
-     {{15.1.9}\'Ecoulement laminaire dans un jet { (niveau II)}}{343}
-     {{15.2}Abscisse de transition dans une couche limite de plaque plane { (niveau II)}}{347}
-     {{15.3}R�gime turbulent}{349}
-     {{15.3.1}Profil de vitesse turbulent: loi en puissance { (niveau III)}}{349}
-     {{15.3.2}Profil de vitesse turbulent, loi de Van Driest { (niveau II)}}{353}
-     {{15.3.3}Fluctuations turbulente en proche paroi { (niveau II)}}{355}
-     {{15.3.4}Turbulence : soufflage avec gradient de pression { (niveau I)}}{357}
-     {{15.3.5}Couche limite turbulente avec aspiration { (niveau IV)}}{358}
-     {{15.3.6}\'Ecoulement turbulent dans un jet { (niveau II)}}{362}
+ # CHAPTER 14: Ecoulements hypersoniques
  
- CHAPITRE:{Bibliographie}{364}
+     14.0 RAPPELS                                                                   {293}
+         14.0.1 Introduction                                                        {293}
+         14.0.2 Onde de choc droite                                                 {293}
+         14.0.3 Onde de choc oblique et similitude hypersonique                     {294}
+         14.0.4 Détente de Prandtl-Meyer                                            {295}
+         14.0.5 Choc conique en hypersonique                                        {296}
+         14.0.6 Méthode de Newton                                                   {297}
+     14.0.7 Méthodes de calcul                                                      {297}
+     14.1 Profils losangique et triangulaire                                        {298}
+     14.2 Plaque plane                                                              {301}
+     14.3 Ecoulement autour de cones ou de dièdres                                  {303}
+     14.4 Méthodes de calcul pour les obstacles pointus                             {305}
+     14.5 Traînée hypersonique minimale                                             {309}
+     14.6 Méthodes de calcul pour les obstacles émoussés                            {312}
  
- CHAPITRE:{Annexe : algorithme de Newton}{366}
+ # CHAPTER 15: Effets visqueux et couche limite
+ 
+     15.0 RAPPELS                                                                   {317}
+         15.0.1 Introduction                                                        {317}
+         15.0.2 Régime laminaire                                                    {318}
+         15.0.3 Régime transitionnel                                                {319}
+               1. Critère de Michel                                                 {320}
+               2. Critère de Cebeci et Smith                                        {320}
+               3. Critère de Granville                                              {321}
+         15.0.4 Régime turbulent                                                    {321}
+     15.1 Régime laminaire                                                          {324}
+         15.1.1 Plaque plane: loi approchée en sinus                                {324}
+         15.1.2 Plaque plane : loi polynomiale                                      {325}
+         15.1.3 Aspiration uniforme d'une couche limite de plaque plane             {329}
+         15.1.4 Mise en mouvement brusque d'une plaque plane                        {330}
+         15.1.5 Plaque plane : relations intégrales avec soufflage/aspiration       {332}
+         15.1.6 Ecoulement de Couette instationnaire                                {334}
+         15.1.7 Ecoulement oscillant : deuxième problème de Stokes                  {337}
+         15.1.8 Solution de similitude avec gradient de pression : 
+                solution de Falkner et Skan                                         {339}
+         17.1.9 Ecoulement laminaire dans un jet                                    {343}
+     15.2 Abscisse de transition dans une couche limite de plaque plane             {347}
+     15.3 Régime turbulent                                                          {349}
+         15.3.1 Profil de vitesse turbulent: loi en puissance                       {349}
+         15.3.2 Profil de vitesse turbulent, loi de Van Driest                      {353}
+         15.3.3 Fluctuations turbulente en proche paroi                             {355}
+         15.3.4 Turbulence : soufflage avec gradient de pression                    {357}
+         15.3.5 Couche limite turbulente avec aspiration                            {358}
+         15.3.6 Ecoulement turbulent dans un jet                                    {362}
+ 
+  
  
