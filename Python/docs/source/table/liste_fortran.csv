@@ -1,0 +1,24 @@
+ chap.  | index | ex. ref.         | title |
+     10 | 1   |  Exercice_10_1     |   Calcul d'un choc droit  |    
+     10 | 2   |  Exercice_10_2     |   Calcul pratique d'un choc droit  |    
+     10 | 30  |  exo_Laval         |   Tuyère de Laval  |    
+     10 | 3   |  Exercice_10_3     |   Ecoulement de Fanno subsonique  |    
+     10 | 4   |  Exercice_10_4     |   Ecoulement de Fanno supersonique  |    
+     10 | 5   |  Exercice_10_5     |   Ecoulement de Rayleigh  |    
+     10 | 6   |  Exercice_10_6     |   Ecoulement de Rayleigh + combustion  |    
+     10 | 7   |  Exercice_10_7     |   Pitot subsonique  |    
+     10 | 8   |  Exercice_10_8     |   Pitot supersonique  |    
+     10 | 9   |  Exercice_10_9     |   Régimes dans une tuyere  |    
+     11 | 1   |  Exercice_11_1     |   plaque en incidence  |    
+     11 | 2   |  Exercice_11_2     |   profil losangique  |    
+     11 | 3   |  Exercice_11_3     |   methode choc detente  |    
+     11 | 4   |  Exercice_11_4     |   Choc dans un canal  |    
+     11 | 5   |  Exercice_11_5     |   Interaction de 2 chocs obliques  |    
+     11 | 6   |  Exercice_11_6     |   Marche descendante (programmation basique)  |    
+     11 | 61  |  Exercice_11_6bis  |   Marche descendante (2nd programmation)  |    
+     11 | 7   |  Exercice_11_7     |   interaction choc - ligne isobare avec fluide au repos  |    
+     11 | 8   |  Exercice_11_8     |   interaction détente - ligne isobare avec fluide au repos  |    
+     11 | 9   |  Exercice_11_9     |   interaction détente - paroi  |    
+     11 | 10  |  Exercice_11_10    |   deux écoulements amont + Ligne de glissement + choc oblique  |    
+     11 | 11  |  Exercice_11_11    |   tuyère : interaction d'ondes de chocs en sortie  |    
+     11 | 12  |  Exercice_11_12    |   tuyère : interaction d'un faisceau de détente en sortie  |    

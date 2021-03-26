@@ -1,0 +1,28 @@
+  Chap.  | Exercise ref.         | Title | Index 
+10||**One-dimensional compressible flows**|
+10|  Exercice_10_1     |   Normal shock wave  |1
+10|  Exercice_10_2     |   Normal shock wave calculus  |2
+10|  Exercice_10_3     |   Subsonic Fanno's flow |3
+10|  Exercice_10_4     |   Supersonic Fanno's flow  |4
+10|  Exercice_10_5     |   Rayleigh's flow  |5
+10|  Exercice_10_6     |   Rayleigh's flow with combustion  |6
+10|  Exercice_10_7     |   Pitot tube in subsonic regime  |7
+10|  Exercice_10_8     |   Pitot tube in supersonic regime  |8
+10|  Exercice_10_9     |   Regimes in nozzles  |9
+10|  Exercice_10_10    |   Laval's nozzle |30
+11||**Two-dimensional supersonic flows**|
+11|  Exercice_11_1     |   Flat plate in incidence|1
+11|  Exercice_11_2     |   Diamond airfoil  |2
+11|  Exercice_11_3     |   Shock-expansion method  |3
+11|  Exercice_11_4     |   Shocks in a channel  |4
+11|  Exercice_11_5     |   Two obliques shock wave interactions |5
+11|  Exercice_11_6     |   Backward facing step  (simple program)  |6
+11|  Exercice_11_6bis  |   Backward facing step (2nd program))  |61
+11|  Exercice_11_7     |   Shock - isobar line interactions of a fluid at rest (1)  |7
+11|  Exercice_11_8     |   Expansion - isobar line interactions of a fluid at rest (2)|8
+11|  Exercice_11_9     |   Expansion - wall interaction  |9
+11|  Exercice_11_10    |  Two upstream flow  separated by a isobar line  - oblique shock interaction  |10
+11|  Exercice_11_11    |   Interaction of shock waves in a nozzle outlet  |11
+11|  Exercice_11_12    |   Interaction of a centered expansion in a nozzle outlet  |12
+12|                    | **Method of characteristics for steady and unsteady flows** |
+12|  Exercice_12_3     |  Shock tube application|3

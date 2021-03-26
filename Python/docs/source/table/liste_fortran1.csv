@@ -1,0 +1,28 @@
+ Chap.  | Exercise ref.         | Title | Index 
+10||**One-dimensional compressible flows**|
+10|  Exercice_10_1     |   Calcul d'un choc droit  |1
+10|  Exercice_10_2     |   Calcul pratique d'un choc droit  |2
+10|  exo_Laval         |   Tuyère de Laval  |30
+10|  Exercice_10_3     |   Ecoulement de Fanno subsonique  |3
+10|  Exercice_10_4     |   Ecoulement de Fanno supersonique  |4
+10|  Exercice_10_5     |   Ecoulement de Rayleigh  |5
+10|  Exercice_10_6     |   Ecoulement de Rayleigh + combustion  |6
+10|  Exercice_10_7     |   Pitot subsonique  |7
+10|  Exercice_10_8     |   Pitot supersonique  |8
+10|  Exercice_10_9     |   Régimes dans une tuyere  |9
+11||**Two-dimensional supersonic flows**|
+11|  Exercice_11_1     |   plaque en incidence  |1
+11|  Exercice_11_2     |   profil losangique  |2
+11|  Exercice_11_3     |   methode choc detente  |3
+11|  Exercice_11_4     |   Choc dans un canal  |4
+11|  Exercice_11_5     |   Interaction de 2 chocs obliques  |5
+11|  Exercice_11_6     |   Marche descendante (programmation basique)  |6
+11|  Exercice_11_6bis  |   Marche descendante (2nd programmation)  |61
+11|  Exercice_11_7     |   interaction choc - ligne isobare avec fluide au repos  |7
+11|  Exercice_11_8     |   interaction détente - ligne isobare avec fluide au repos  |8
+11|  Exercice_11_9     |   interaction détente - paroi  |9
+11|  Exercice_11_10    |   deux écoulements amont + Ligne de glissement + choc oblique  |10
+11|  Exercice_11_11    |   tuyère : interaction d'ondes de chocs en sortie  |11
+11|  Exercice_11_12    |   tuyère : interaction d'un faisceau de détente en sortie  |12
+12|                    | **Method of characteristics for steady and unsteady flows** |
+12|  Exercice_12_3     |  application du tube à choc.|3

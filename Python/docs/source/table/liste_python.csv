@@ -1,0 +1,94 @@
+  chap. | ex. ref. | title |
+  2  | Exercice2_1  | Stream functions and potential of velocity|
+  2  | Exercice2_2  | Standard atmosphere|
+  3  | Exercice3_1  | Cylinder |
+  3  | Exercice3_2  | Joukowski's transformation|
+  3  | Exercice3_3  | Karman-Trefftz's transformation|
+  3  | Exercice3_4  | Von Mises's transformation|
+  3  | Exercice3_5  | Van de Vooren and Jong transformation|
+  3  | Exercice3_6  | Double-cambered airfoil|
+  3  | Exercice3_7  | Flate plate with incidence|
+  3  | Exercice3_8  | Flate plate : introduction to panels |
+  3  | Exercice3_9  | Ground effect|
+  3  | Exercice3_1  | Rankine's oval|
+  4  | Exercice4_1  | Flate plate with incidence|
+  4  | Exercice4_2  | Joukowski airfoil|
+  4  | Exercice4_3  | pq family airfoils |
+  4  | Exercice4_4  | Double cambered airfoil +  slots and flaps |
+  4  | Exercice4_5  | Camber and thickness laws|
+  4  | Exercice4_6  | Slots and flaps on a rectangular wing|
+  4  | Exercice4_7  | Linearized airfoil theory : NACA airfoil|
+  5  | Exercice5_1  | Elliptic optimal wing|
+  5  | Exercice5_2  | Twisted elliptic wing|
+  5  | Exercice5_3  | Flaps on a elliptic wing|
+  5  | Exercice5_4  | Wing aerodynamic center|
+  5  | Exercice5_5  | Airbus A380-800 vortex wake|
+  5  | Exercice5_6  | Wind tunnel corrections|
+  5  | Exercice5_7  | Horse-shoe vortex|
+  5  | Exercice5_8  | Flight in formation|
+  5  | Exercice5_9  | Wake vortex with ground effect|
+  5  | Exercice5_10 | Numerical solution of the Prandt equation : general case|
+  5  | Exercice5_11 | Numerical solution of the Prandt equation with ground effect|
+  5  | Exercice5_12 | Spitfire wing|
+  5  | Exercice5_14 | Tappered wing load of the  P51 Mustang|
+  6  | Exercice6_1  | Lift coefficient law with  the wing aspect ratio|
+  6  | Exercice6_3  | Ellipsoide|
+  6  | Exercice6_4  | Data analysis of  Van Driest phd about the ellipsoidal flow|
+  7  | Exercice7_0  | Van-Hooren airfoil parameters {7.2.1}|
+  7  | Exercice7_1  | Van-Hooren's airfoil, parameter map in the k-t plane (thickness) {7.1.1}|
+  7  | Exercice7_2  | Parabolic airfoil {7.1.2}|
+  7  | Exercice7_3  | Discrete Vortex Method on the parabolic mean line airfoil {7.2.1}|
+  7  | Exercice7_4  | Van-Hooren's airfoil, sources distribution, Neumann's approach {7.2.2}|
+  7  | Exercice7_5  | Uniform distribution of  sources and of  doublets for the  Van-Hooren airfoil {7.2.3} |
+  7  | Exercice7_10 | Airfoil NACA : drawings|
+  7  | Exercice7_30 | Reference solution of a Naca airfoil from NACA files|
+  8  | Exercice8_1  | Total pressure / Stagnation pressure = Isentropic Pressure {8.1.1}|
+  8  | Exercice8_2  | Pitot tube in subsonic flow {8.1.2} |
+  8  | Exercice8_3  | Compressibility corrections (airfoil) {8.2.1}|
+  8  | Exercice8_4  | Compressibility corrections (wing) and critical Mach number {8.2.2}|
+  8  | Exercice8_5  | Wavy wall flow {8.3}|
+  8  | Exercice8_6  | Wavy wall flow on transonic regime {8.4} |
+  8  | Exercice8_7  | Kpinc with respect to the critical Mach number {8.4}|
+  9  | Exercice9_1  | Linearized theory : flat plate in incidence {9.2.1} |
+  9  | Exercice9_2  | Linearized theory : diamond airfoil {9.2.3}|
+  9  | Exercice9_3  | Linearized theory : airfoil of minimal drag {9.2.4} |
+  9  | Exercice9_4  | Linearized theory : lenticular airfoil {9.2.5}|
+  9  | Exercice9_5  | Supersonic jet - airfoil interaction {9.2.6}|
+  10 | Exercice10_1 | Rocket nozzle thrust|
+  10 | Exercice10_2 | Rocket nozzle thrust, Mattingly's formules|
+  10 | Exercice10_3 | Pitot tube into a supersonic nozzle|
+  10 | Exercice10_4 | Oxygen - hydrogen rocket engine|
+  10 | Exercice10_5 | normal shock wave example|
+  11 | Exercice11_2 | Oblique shock wave reflection of a channel wall|
+  11 | Exercice11_3 | Interaction between two oblique shock waves|
+  12 | Exercice12_1 | Diverging channel|
+  12 | Exercice12_2 | Shock tube|
+  12 | Exercice12_3 | Rocket nozzle|
+  12 | Exercice12_4 | Nozzle of minimun length|
+  13 | Exercice13_1 | Conical obstacle in supersonic flow|
+  13 | Exercice13_2 | Parabolic ogive in supersonic flow|
+  13 | Exercice13_3 | Minimun drag of a slender body in supersonic flow|
+  13 | Exercice13_4 | Plot of the iso-potential lines and  of the stream lines|
+  13 | Exercice13_5 | Slender conical body|
+  14 | Exercice14_0 | Downstream Mach of an oblique shock wave over a plane wall with  different approximations |
+  14 | Exercice14_1 | Diamond and triangular airfoils Kp: Newton's method |
+  14 | Exercice14_3 | Kp of a 2D plane or conical wall, for various Mach number |
+  14 | Exercice14_4 | Sharp obstacle Kp with different approaches|
+  14 | Exercice14_5 | Minimun drag body in hypersonic flow|
+  14 | Exercice14_6 | Drag of blunt body in hypersonic flow|
+  13 | Exercice14_100 | Conical shock angle curves|
+  14 | Exercice14_101 | Prandtl-Meyer approximated function in   hypersonic flow|
+  14 | Exercice14_102 | Test : inverted omega(Mach) function  in supersonic flow| 
+  15 | Exercice15_1 | Flat plate : sine and polynomial laws |
+  15 | Exercice15_2 | Flat plate : polynomial laws|
+  15 | Exercice15_4 | Instantaneous movement of a plate, Rayleigh's problem|
+  15 | Exercice15_6 | Unsteady Couette's flow|
+  15 | Exercice15_7 | Unsteady flow : second Stokes problem|
+  15 | Exercice15_8 | Steady laminar jet|
+  15 | Exercice15_9 | Transition to turbulence onset location|
+  15 | Exercice15_10| old version, it works without  python class|
+  15 | Exercice15_11 | Turbulent analytical velocity profile with suction|
+  15 | Exercice15_12 | Turbulent analytical velocity profile with the power law| 
+  15 | Exercice15_13 | Turbulent analytical velocity profile with the  Van Driest's correction| 
+  15 | Exercice15_14 | Turbulent analytical velocity profile with the  Van Driest's correction - tests| 
+  15 | Exercice15_15 | Turbulent analytical velocity profile with suction - tests|

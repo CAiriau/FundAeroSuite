@@ -1,0 +1,39 @@
+Contenus des dossiers et des fichiers : 
+
+COURBES/deviation*.out
+    #  Theta paroi en °  Angle Choc en °     Mach amont
+
+COURBES/Inverse_Mach_Aval*.out
+    #  Theta paroi en °  Inverse Mach Paroi  Mach amont
+
+COURBES/Kp*.out
+    #  Theta paroi en °         Kp           Mach amont
+
+COURBES/Mach_aval_cone_unitaire*.out
+    #  Mach amont      Angle Choc en °  Theta Mach = 1 en °  Inverse Mach         Kp
+
+COURBES/Mach_cone_unitaire*.out
+    #  Mach amont      Angle Choc en °  Theta Mc = 1 en °  Mach aval         Kp
+
+COURBES/theta_cone_max*.out
+    #     Mach amont     Angle Choc en °    ThetaMax en °  Inverse Mach cone        Kp
+
+
+MACH/Mach_*.dat
+    #  Theta paroi en deg Angle Choc en deg       Kp           Inverse Mach       Mach amont       Mach aval
+
+
+tous les fichiers *.agr s'ouvrent avec xmgrace 
+xmgrace nom_du_fichier.agr 
+
+
+main_choc_conique.py:
+    fichier en python permettant de calculer de la base de données contenue dans MACH/ 
+    les caractéristiques d'un choc oblique pour un Mach et un angle donnés
+
+    ou tracé de sigma, Kp et Mach_Aval en fonction de theta (angle du cône).
+
+cone.in : fichier d'entrée pour le calcul du choc oblique, avec le programme en fortran f90.
+
+tous les fichiers commençant du type x*.sh  sont des scripts shell.
+

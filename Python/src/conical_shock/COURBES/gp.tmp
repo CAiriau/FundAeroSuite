@@ -1,0 +1,7 @@
+plot 'deviation_1.out' using 1:2 with lines lw 2 , \
+'deviation_2.out' using 1:2 with lines lw 2 , \
+'deviation_3.out' using 1:2 with lines lw 2 , \
+'deviation_4.out' using 1:2 with lines lw 2 , \
+'deviation_5.out' using 1:2 with lines lw 2 , \
+'deviation_6.out' using 1:2 with lines lw 2
+pause -1 "return to quit"
