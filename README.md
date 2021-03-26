@@ -6,7 +6,6 @@ The text of the problems and exercices are found into the textbook
 
 ---
 
-[here](https://stabfem.gitlab.io/StabFem_Develop/)
 
 
 **Exercices et Problèmes d'Aérodynamique Fondamentale**
