@@ -1,11 +1,15 @@
 # FundAeroSuite
 
+## Latest news
+
+- march 2021 : push English version of FundAeroSuite
+
+
 ## Solutions of Fundamental Aerodynamics Exercices and Problems
 
 The text of the problems and exercices are found into the textbook
 
 ---
-
 
 
 **Exercices et Problèmes d'Aérodynamique Fondamentale**
