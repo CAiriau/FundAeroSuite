@@ -1,6 +1,6 @@
 # List of the exercises solved in the textbook
 
-
+The list is written in French, as the textbook. But English translation can be found in the Python documentation.
  
 # CHAPTER 1: Equations locales de conservation et d'évolution
  
@@ -9,57 +9,58 @@
         1.0.2 Equation d'évolution de l'entropie                                    {2}
     1.1 Equation de conservation de l'enthalpie massique h                          {3}
     1.2 Equation d'évolution de l'entropie massique s                               {4}
-    1.3 Equations en variables primitives **V** et T                                {5}
+    1.3 Equations en variables primitives V et T                                    {5}
  
-# CHAPTER 2: Modèles math�matiques pour l'aérodynamique
+# CHAPTER 2: Modèles mathématiques pour l'aérodynamique
  
     2.0 RAPPELS                                                                     {7}
         2.0.1 Modèles mathématiques                                                 {7}
         2.0.2 Fonction de courant et potentiel des vitesses                         {9}
     2.1 Equations et nombres sans dimension                                         {10}
-     {{2.2}Notion de fluide parfait { (niveau I)}}{12}
-     {{2.3}Fonction de courant et potentiel des vitesses }{13}
-     {{2.3.1}Tourbillon ponctuel { (niveau I)}}{13}
-     {{2.3.2}Source ponctuelle { (niveau I)}}{14}
-     {{2.3.3}Doublet source-puits d'axe horizontal { (niveau II)}}{15}
-     {{2.3.4}\'Etirement pur { (niveau I)}}{16}
-     {{2.4}Atmosph�re standard { (niveau I)}}{17}
+        2.2  Notion de fluide parfait                                               {12}
+        2.3 Fonction de courant et potentiel des vitesses                           {13}
+            2.3.1 Tourbillon ponctuel                                               {13}
+            2.3.2 Source ponctuelle                                                 {14}
+            2.3.3 Doublet source-puits d'axe horizontal                             {15}
+            2.3.4 Etirement pur                                                     {16}
+        2.4 Atmosphère standard                                                     {17}
  
- CHAPITRE:{{3}Th�orie des potentiels complexes: application aux profils d'aile}{19}
+ # CHAPTER 3: Théorie des potentiels complexes: application aux profils d'aile
  
-     {{3.0}RAPPELS}{19}
-          {{3.0.1}Potentiel complexe}{19}
-          {{3.0.2}\'Ecoulements �l�mentaires}{20}
-          {{3.0.3}Profil d'aile}{21}
-          {{3.0.4}Transformation conforme}{21}
-          {{3.0.5}Force de portance, moment de tangage}{22}
-     {{3.1}\'Ecoulement autour d'un cylindre et d'une sph�re { (niveau II)}}{23}
-     {{3.2}Transformation de Joukowski { (niveau II)}}{26}
-     {{3.3}Transformation de Karman-Trefftz { (niveau I)}}{33}
-     {{3.4}Transformation de Von Mises { (niveau II)}}{36}
-     {{3.5}Transformation de Van de Vooren et Jong { (niveau I)}}{39}
-     {{3.6}Profil � double pointe et double courbure { (niveau II)}}{42}
-     {{3.7}Plaque plane en incidence { (niveau I)}}{44}
-     {{3.8}Introduction � la m�thode des panneaux { (niveau II)}}{47}
-     {{3.9}Effet de sol { (niveau III)}}{50}
-     {{3.10}Ailes en tandem { (niveau III)}}{53}
-     {{3.11}Transformation de Schwarz et Christoffel: expansion dans un canal { (niveau III)}}{55}
-     {{3.12}Ovale de Rankine { (niveau III)}}{57}
+    3.0 RAPPELS                                                                     {19}
+        3.0.1 Potentiel complexe                                                    {19}
+        3.0.2 Ecoulements élémentaires                                              {20}
+        3.0.3 Profil d'aile                                                         {21}
+        3.0.4 Transformation conforme                                               {21}
+        3.0.5 Force de portance, moment de tangage                                  {22}
+    3.1 Ecoulement autour d'un cylindre et d'une sphère                             {23}
+    3.2 Transformation de Joukowski                                                 {26}
+    3.3 Transformation de Karman-Trefftz                                            {33}
+    3.4 Transformation de Von Mises                                                 {36}
+    3.5 Transformation de Van de Vooren et Jong                                     {39}
+    3.6 Profil à double pointe et double courbure                                   {42}
+    3.7 Plaque plane en incidence                                                   {44}
+    3.8 Introduction à la méthode des panneaux                                      {47}
+    3.9 Effet de sol                                                                {50}
+    3.10 Ailes en tandem                                                            {53}
+    3.11 Transformation de Schwarz et Christoffel: expansion dans un canal          {55}
+    3.12 Ovale de Rankine                                                           {57}
  
- CHAPITRE:{{4}Th�orie lin�aris�e des profils minces}{61}
+ # CHAPTER 4: Théorie linéarisée des profils minces
  
-     {{4.0}RAPPELS}{61}
-          {{4.0.1}Introduction}{61}
-          {{4.0.2}Mod�le lin�aris�}{62}
-          {{4.0.3}R�solution par la m�thode de Glauert}{63}
-          {{4.0.4}Caract�ristiques a�rodynamiques}{64}
-     {{4.1}Plaque plane en incidence { (niveau I)}}{65}
-     {{4.2}Profils de Joukowski { (niveau I)}}{67}
-     {{4.3}Famille de profils minces { (niveau I)}}{69}
-     {{4.4}Profil mince avec volet et bec { (niveau II)}}{71}
-     {{4.5}Lois de squelette et d'�paisseur { (niveau II)}}{74}
-     {{4.6}Braquage de volet ou de bec sur une aile rectangulaire suppos�e d'envergure infinie { (niveau II)}}{76}
-     {{4.7}Profil NACA 4 chiffres { (niveau II)}}{78}
+    4.0 RAPPELS                                                                     {61}
+        4.0.1 Introduction                                                          {61}
+        4.0.2 Modèle linéarisé                                                      {62}
+        4.0.3 Résolution par la méthode de Glauert                                  {63}
+        4.0.4 Caractéristiques aérodynamiques                                       {64}
+    4.1 Plaque plane en incidence                                                   {65}
+    4.2 Profils de Joukowski                                                        {67}
+    4.3 Famille de profils minces                                                   {69}
+    4.4 Profil mince avec volet et bec                                              {71}
+    4.5 Lois de squelette et d'épaisseur                                            {74}
+    4.6 Braquage de volet ou de bec sur une aile rectangulaire supposée
+        d'envergure infinie                                                         {76}
+    4.7 Profil NACA 4 chiffres                                                      {78}
  
  CHAPITRE:{{5}Th�orie de la ligne portante de Lanchester-Prandtl}{81}
  
