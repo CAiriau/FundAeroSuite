@@ -94,55 +94,57 @@ The list is written in French, as the textbook. But English translation can be f
      6.2 Aile en forme de Delta                                                     {126}
      6.3 Distribution de pression sur un ellipsoïde                                 {127}
  
- # CHAPITRE:{{7}Aspects num�riques: m�thode des singularit�s}{133}
+ # CHAPTER 7: Aspects numériques: méthode des singularités
  
-     {{7.0}RAPPELS}{133}
-          {{7.0.1}Introduction, m�thodologie}{133}
-          {{7.0.2}Potentiel des vitesses}{134}
-          {{7.0.3}Conditions aux limites, approche de Dirichlet ou de Neumann}{134}
-     {{7.1}Profils, solution analytique pour la validation}{135}
-     {{7.1.1}Profil sym�trique de Van de Vooren et Jong { (niveau II)}}{135}
-     {{7.1.2}Squelette cambr� de forme parabolique { (niveau I)}}{138}
-     {{7.2}\'Etude de diff�rentes distributions de singularit�s}{140}
-     {{7.2.1}M�thode des tourbillons discrets: squelette cambr� { (niveau II)}}{140}
-     {{7.2.2}Distribution de sources ponctuelles, approche de Neumann: profil de Van de Vooren et Jong sous incidence nulle { (niveau III)}}{143}
-     {{7.2.3}Distribution uniforme de sources et de doublets, approche Dirichlet: profil de Van de Vooren et Jong en incidence { (niveau IV)}}{146}
+     7.0 RAPPELS                                                                    {133}
+         7.0.1 Introduction, méthodologie}{133}
+         7.0.2 Potentiel des vitesses}{134}
+         7.0.3 Conditions aux limites, approche de Dirichlet ou de Neumann          {134}
+     7.1 Profils, solution analytique pour la validation                            {135}
+         7.1.1 Profil symétrique de Van de Vooren et Jong                           {135}
+         7.1.2 Squelette cambré de forme parabolique                                {138}
+     7.2 Etude de différentes distributions de singularités                         {140}
+         7.2.1 Méthode des tourbillons discrets: squelette cambré                   {140}
+         7.2.2 Distribution de sources ponctuelles,  approche de Neumann: 
+               profil de Van de Vooren et Jong sous incidence nulle                 {143}
+     7.2.3 Distribution uniforme de sources et de doublets, approche Dirichlet:
+               profil de Van de Vooren et Jong en incidence                         {146}
  
- CHAPITRE:{{8}\'Ecoulements compressibles subsonique et transsonique}{153}
+ # CHAPTER 8: Ecoulements compressibles subsonique et transsonique
  
-     {{8.0}RAPPELS}{153}
-          {{8.0.1}Introduction}{153}
-          {{8.0.2}R�gime compressible subsonique $0<M_0<0.8$}{154}
-          {{8.0.3}R�gime transsonique $M_0>0.8$}{154}
-          {{8.0.4}Aile d'envergure finie et aile en fl�che}{154}
-     {{8.1}\'Ecoulement subsonique isentropique}{155}
-     {{8.1.1}Pression totale et pression isentropique { (niveau I)}}{155}
-     {{8.1.2}Tube de Pitot en r�gime compressible { (niveau I)}}{156}
-     {{8.2}\'Ecoulement transsonique}{158}
-     {{8.2.1}Corrections de compressibilit� { (niveau I)}}{158}
-     {{8.2.2}Mach critique inf�rieur : effet de fl�che { (niveau I)}}{160}
-     {{8.3}\'Ecoulement au voisinage d'une paroi ondul�e en r�gime subsonique { (niveau II)}}{162}
-     {{8.4}\'Ecoulement au voisinage d'une paroi ondul�e en r�gime transsonique { (niveau IV)}}{164}
-     {{8.5}\'Ecoulement transsonique autour d'un profil { (niveau I)}}{171}
+     8.0 RAPPELS                                                                    {153}
+         8.0.1 Introduction                                                         {153}
+         8.0.2 Régime compressible subsonique 0<M_0<0.8                             {154}
+         8.0.3 Régime transsonique M_0>0.8                                          {154}
+         8.0.4 Aile d'envergure finie et aile en flèche                             {154}
+     8.1 Ecoulement subsonique isentropique                                         {155}
+         8.1.1 Pression totale et pression isentropique                             {155}
+         8.1.2 Tube de Pitot en régime compressible                                 {156}
+     8.2 Ecoulement transsonique                                                    {158}
+         8.2.1 Corrections de compressibilité                                       {158}
+         8.2.2 Mach critique inférieur : effet de flèche                            {160}
+     8.3 Ecoulement au voisinage d'une paroi ondulée en régime subsonique           {162}
+     8.4 Ecoulement au voisinage d'une paroi ondulée en régime transsonique         {164}
+     8.5 Ecoulement transsonique autour d'un profil                                 {171}
  
- CHAPITRE:{{9}\'Ecoulements supersoniques lin�aris�s}{173}
+ # CHAPITRE 9: Ecoulements supersoniques linéarisés
  
-     {{9.0}RAPPELS}{173}
-          {{9.0.1}Introduction}{173}
-          {{9.0.2}Relations fondamentales et m�thodes des caract�ristiques}{173}
-          {{9.0.3}Applications aux profils}{175}
-     {{9.1}Applications aux �coulements externes}{176}
-     {{9.1.1}Plaque plane { (niveau I)}}{176}
-     {{9.1.2}\'Ecoulement proche d'une paroi ondul�e : r�gime supersonique { (niveau II)}}{177}
-     {{9.1.3}Caract�ristiques d'un profil losangique { (niveau I)}}{179}
-     {{9.1.4}Profil de tra�n�e minimale { (niveau II)}}{182}
-     {{9.1.5}Profil lenticulaire { (niveau I)}}{186}
-     {{9.1.6}Interaction jet supersonique-profil { (niveau II)}}{187}
-     {{9.2}\'Ecoulements en canal plan}{191}
-     {{9.2.1}Plaque plane en incidence dans un canal supersonique { (niveau I)}}{191}
-     {{9.2.2}Canal supersonique divergent { (niveau I)}}{193}
-     {{9.2.3}Profil losangique plac� dans un canal supersonique { (niveau II)}}{194}
-     {{9.2.4}Remarque sur le plan de l'hodographe}{196}
+     9.0 RAPPELS                                                                    {173}
+         9.0.1 Introduction                                                         {173}
+         9.0.2 Relations fondamentales et méthodes des caractéristiques             {173}
+         9.0.3 Applications aux profils                                             {175}
+     9.1 Applications aux écoulements externes                                      {176}
+         9.1.1 Plaque plane                                                         {176}
+         9.1.2 Ecoulement proche d'une paroi ondulée : régime supersonique          {177}
+         9.1.3 Caractéristiques d'un profil losangique                              {179}
+         9.1.4 Profil de traînée minimale                                           {182}
+         9.1.5 Profil lenticulaire                                                  {186}
+         9.1.6 Interaction jet supersonique-profil                                  {187}
+     9.2 Ecoulements en canal plan                                                  {191}
+         9.2.1 Plaque plane en incidence dans un canal supersonique                 {191}
+         9.2.2 Canal supersonique divergent                                         {193}
+         9.2.3 Profil losangique placé dans un canal supersonique                   {194}
+         9.2.4 Remarque sur le plan de l'hodographe                                 {196}
  
  CHAPITRE:{{10}\'Ecoulements compressibles monodimensionnels}{197}
  
